@@ -14,6 +14,7 @@ function getpoke(){
 
 
     //$( "#body" ).append( userinputtext );
-    document.getElementById("body").appendChild(document.createTextNode(userinputtext));
+    document.write(userinputtext);
+    //document.getElementById("body").appendChild(document.createTextNode(userinputtext));
     //<script>window.location.replace("https://www.google.dk/")</script>
 }
